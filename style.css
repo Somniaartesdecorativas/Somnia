@@ -1,0 +1,42 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+body {
+            height: 100vh;
+            background:linear-gradient(-45deg, #BFBFBF, #F2C38A);
+        }
+        
+/*imagem logo*/
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+/* Header section */
+#header {
+	position: fixed;
+	z-index: 1000;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: auto;
+}
+#header .header {
+	min-height: 8vh;
+	background-color: rgba(31, 30, 30, 0.24);
+	transition: 0.3s ease background-color;
+}
+/* Hero Section */
+#hero {
+	background-image: url(pexels1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+	position: relative;
+	z-index: 1;
+}
+#hero .hero {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 50px;
+	justify-content: flex-start;
+}
+	
